@@ -292,10 +292,10 @@ params:
   # 文章分享功能
   share:
     twitter: true
-    facebook: true
-    weibo: true
+    facebook: false
+    weibo: false
     copyLinkText: true
-    qrcode: true
+    qrcode: false
   
   qrcodeAPI: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="
 
@@ -473,6 +473,7 @@ languages:
     languageName: English
     params:
       languageIcon: "images/i18n/en-us.svg" # in assets folder
+      font: "Pretendard Variable"
   ja:
     contentDir: content/ja
     languageName: 日本語
