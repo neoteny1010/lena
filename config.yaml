@@ -1,4 +1,4 @@
-baseURL: https://hugo-theme-luna.imiku.me/
+baseURL: https://lena-lyart.vercel.app
 languageCode: en-us
 defaultContentLanguage: en-us
 title: "Luna"
@@ -14,7 +14,7 @@ enableGitInfo: false
 
 # 如果你的博客包含中日韩语，请启用此选项
 # enable CJK language support
-hasCJKLanguage: true
+hasCJKLanguage: false
 
 # 每页显示文章数量
 # pagination size
@@ -202,7 +202,7 @@ params:
   # 评论系统
   # Comment system
   comments:
-    enabled: true
+    enabled: false
     provider: "giscus" # custom | giscus
     giscus: &giscus
       repo: "Ice-Hazymoon/hugo-theme-luna"
@@ -223,7 +223,7 @@ params:
     enabled: true
     # 是否输出全文
     # Output full text
-    fullText: true
+    fullText: false
 
   # 如果为 false，你必须设置 Output Formats，请查看：https://gohugo.io/templates/output-formats#customizing-output-formats
   # If false, you must set Output Formats, see: https://gohugo.io/templates/output-formats#customizing-output-formats
@@ -240,7 +240,7 @@ params:
   # 输出一个漂亮的控制台日志
   # Output a nice console log
   console:
-    enabled: true
+    enabled: false
     leftColor: "#dd6065"
     leftText: "Hugo Theme Luna"
     rightColor: "#feb462"
@@ -248,7 +248,7 @@ params:
 
   # 标题计数器
   # Title counter
-  headlineCounter: false
+  headlineCounter: true
 
   # 固定导航栏
   # Fixed navigation bar
@@ -292,10 +292,10 @@ params:
   # 文章分享功能
   share:
     twitter: true
-    facebook: true
-    weibo: true
+    facebook: false
+    weibo: false
     copyLinkText: true
-    qrcode: true
+    qrcode: false
   
   qrcodeAPI: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="
 
@@ -309,7 +309,7 @@ params:
 
   # 显示右上角 i18n 切换按钮
   # Display i18n toggle button
-  i18nlist: true
+  i18nlist: false
 
   # GitHub 页面设置
   # github page
@@ -322,7 +322,7 @@ params:
   twitter:
     enabled: true
     rsshub: "https://rsshub.rssforever.com" # rsshub url, see https://github.com/DIYgod/RSSHub
-    id: "GenshinImpact" # Twitter ID
+    id: "iam11duck" # Twitter ID
     # 如果为 true，Hugo 将下载图片和视频并进行优化，如果你在中国大陆地区，请谨慎启用这个选项
     # If enabled, Hugo will download videos and images from the Tweet and optimize them
     imageProcessing: true
@@ -339,7 +339,7 @@ params:
   # 更快速的阅读英文内容, 参考：https://bionic-reading.com/
   # Read English content faster, see https://bionic-reading.com/
   bionicReading:
-    enabled: true
+    enabled: false
     autoBionic: false # 自动启用 Bionic Reading / auto enable Bionic Reading
     skipLinks: false # 跳过链接 / skip links
     excludeWords: [] # 忽略的单词 / ignored words
@@ -348,11 +348,11 @@ params:
 
   # 启用谷歌翻译插件
   # enable google translate in footer
-  googleTranslate: true
+  googleTranslate: false
 
   # 优化中文排版，请参考：https://github.com/vinta/pangu.js
   # Optimize Chinese typography, see: https://github.com/vinta/pangu.js
-  pangu: true
+  pangu: false
 
   # 开启本地搜索插件
   # enable local search plugin
@@ -360,11 +360,11 @@ params:
 
   # 文章页显示最后修改时间
   # For outdated reminders
-  lastmod: true
+  lastmod: false
 
   # 显示阅读时间
   # show reading time
-  readingTime: true
+  readingTime: false
 
   # 显示文章字数
   # show word count
@@ -473,6 +473,7 @@ languages:
     languageName: English
     params:
       languageIcon: "images/i18n/en-us.svg" # in assets folder
+      font: "Pretendard Variable"
   ja:
     contentDir: content/ja
     languageName: 日本語
