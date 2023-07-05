@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-01-14T06:31:45+00:00
-slug: typography
+slug: typography2
 layout: "page"
 type: page
 comments: false
