@@ -252,7 +252,7 @@ params:
 
   # 固定导航栏
   # Fixed navigation bar
-  fixedNav: false
+  fixedNav: true
 
   # 网站字体
   # Site font
