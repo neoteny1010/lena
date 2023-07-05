@@ -1,6 +1,6 @@
 ---
 author: Ice-Hazymoon
-type: "status"
+type: "post"
 date: 2023-02-15T07:01:32+00:00
 slug: luna-released232
 categories:
