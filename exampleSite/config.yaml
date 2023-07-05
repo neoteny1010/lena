@@ -426,7 +426,7 @@ params:
   opengraph:
     twitter: # see https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
       cardType: summary_large_image # summary | summary_large_image
-      site: "@Ice_Hazymoon"
+      site: "@iam11duck"
     image: "featured.png" # in assets folder | false
 
   author: Ice-Hazymoon
@@ -449,7 +449,7 @@ languages:
       twitter: 
         enabled: true
         rsshub: "https://rsshub.rssforever.com"
-        id: "Ice_Hazymoon"
+        id: "iam11duck"
         imageProcessing: true
       github:
         id: "Ice-Hazymoon"
