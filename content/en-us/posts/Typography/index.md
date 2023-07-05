@@ -1,5 +1,5 @@
 ---
-title: "Typography"
+title: "Typography232323"
 date: 2022-04-15T02:49:13+02:00
 slug: typography
 featured_image: cover.jpg
