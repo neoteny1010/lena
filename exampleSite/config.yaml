@@ -309,7 +309,7 @@ params:
 
   # 显示右上角 i18n 切换按钮
   # Display i18n toggle button
-  i18nlist: true
+  i18nlist: false
 
   # GitHub 页面设置
   # github page
@@ -339,7 +339,7 @@ params:
   # 更快速的阅读英文内容, 参考：https://bionic-reading.com/
   # Read English content faster, see https://bionic-reading.com/
   bionicReading:
-    enabled: true
+    enabled: false
     autoBionic: false # 自动启用 Bionic Reading / auto enable Bionic Reading
     skipLinks: false # 跳过链接 / skip links
     excludeWords: [] # 忽略的单词 / ignored words
@@ -348,11 +348,11 @@ params:
 
   # 启用谷歌翻译插件
   # enable google translate in footer
-  googleTranslate: true
+  googleTranslate: false
 
   # 优化中文排版，请参考：https://github.com/vinta/pangu.js
   # Optimize Chinese typography, see: https://github.com/vinta/pangu.js
-  pangu: true
+  pangu: false
 
   # 开启本地搜索插件
   # enable local search plugin
@@ -360,11 +360,11 @@ params:
 
   # 文章页显示最后修改时间
   # For outdated reminders
-  lastmod: true
+  lastmod: false
 
   # 显示阅读时间
   # show reading time
-  readingTime: true
+  readingTime: false
 
   # 显示文章字数
   # show word count
