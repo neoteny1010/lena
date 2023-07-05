@@ -1,6 +1,6 @@
 ---
 title: "글쓰기 테스트"
-type : "post"
+type : "status"
 date: 2023-07-01T02:49:13+02:00
 slug: hugo-encrypttest 
 tags:
