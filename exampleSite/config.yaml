@@ -26,7 +26,7 @@ paginate: 10
 
 # 版权信息，默认为 author.name ↓
 # default: author.name ↓
-# copyright: "" 
+copyright: "" 
 
 permalinks:
   # 文章链接的格式
@@ -35,7 +35,7 @@ permalinks:
   pages: /:slug.html # about.html
 
 author:
-  name: Ice-Hazymoon
+  name: LENA
 
 frontmatter:
   lastmod:
