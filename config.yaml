@@ -321,7 +321,7 @@ params:
   # tweet page
   twitter:
     enabled: true
-    rsshub: "https://rsshub.rssforever.com" # rsshub url, see https://github.com/DIYgod/RSSHub
+    rsshub: "https://rsshub.rssforever.com"
     id: "iam12duck" # Twitter ID
     # 如果为 true，Hugo 将下载图片和视频并进行优化，如果你在中国大陆地区，请谨慎启用这个选项
     # If enabled, Hugo will download videos and images from the Tweet and optimize them
@@ -426,7 +426,7 @@ params:
   opengraph:
     twitter: # see https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
       cardType: summary_large_image # summary | summary_large_image
-      site: "@Ice_Hazymoon"
+      site: "@iam11duck"
     image: "featured.png" # in assets folder | false
 
   author: Ice-Hazymoon
