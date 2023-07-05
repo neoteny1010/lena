@@ -1,8 +1,7 @@
 ---
 title: "글쓰기 테스트"
 date: 2023-07-01T02:49:13+02:00
-slug: hugo-encrypttest
-summary: "제목이 제대로 나올까"
+slug: hugo-encrypttest 
 tags:
   - "Hugo"
 ---

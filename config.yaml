@@ -394,7 +394,7 @@ params:
 
   # 开启 PWA
   # use service worker
-  pwa: true
+  pwa: false
 
   # 开启数学公式
   # katex
