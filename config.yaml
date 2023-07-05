@@ -1,6 +1,6 @@
 baseURL: https://lena-lyart.vercel.app
 languageCode: en-us
-defaultContentLanguage: en-us
+defaultContentLanguage: ja
 title: "Luna"
 enableRobotsTXT: true
 enableEmoji: true
