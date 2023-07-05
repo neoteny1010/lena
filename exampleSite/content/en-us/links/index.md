@@ -6,4 +6,4 @@ layout: "links"
 
 #### WebSite
 
-{{< link url="https://github.com/" image="github.png" title="GitHub" desc="some desc text..." >}} 
+{{< link url="https://github.com/2" image="github.png" title="GitHub" desc="some desc text..." >}} 
