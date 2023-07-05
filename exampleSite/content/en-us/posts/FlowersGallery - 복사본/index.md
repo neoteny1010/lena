@@ -1,18 +1,10 @@
 ---
-title: "yes"
-date: 2023-04-15T02:49:13+02:00
-draft: true
-summary: "summaries..."
-type: "post"
-author: Author
-slug: aaa-bbb-ccc
-toc: false
+author: Ice-Hazymoon
+type: status
+date: 2019-02-15T07:01:32+00:00
+slug: luna-released
 categories:
-   - CategoryA
-   - CategoryB
-tags:
-   - tagA
-   - tagB
+  - Luna
 ---
 
-tes yes
+Hugo theme luna has been released, welcome to use it!
